@@ -1,11 +1,11 @@
-.places__image {
+.place__image {
   max-width: 100%;
   grid-column: 1/2;
   grid-row: 2/3;
 }
 
 @media screen and (max-width: 320px) {
-  .places__image {
+  .place__image {
     max-width: 320px;
     order: 3;
   }

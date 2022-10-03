@@ -7,6 +7,8 @@
   margin-left: auto;
   margin-right: auto;
   min-height: 740px;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,7 +25,7 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    margin-top: 66px;
+    margin-top: 41px;
     max-width: 320px;
     min-height: 200px;
   }
